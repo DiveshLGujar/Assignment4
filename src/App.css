@@ -1,0 +1,30 @@
+.icon{
+  color: red;
+  font-size: 8vh;
+}
+
+body{
+  background-color: greenyellow;
+}
+.grid{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 15px;
+  
+
+}
+
+.box{
+  width: auto;
+  height:100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box:hover{
+  cursor: pointer;
+}
+.btn{
+  text-align: center;
+  
+}
